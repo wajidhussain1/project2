@@ -1,0 +1,29 @@
+{
+  "name": "medmartbook",
+  "version": "1.0.0",
+  "description": "This is an app of medical book on which the user can be aware of many diseases and their alternative medicine to be used in such state that it will help them ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "server": "nodemon backend/backendserver.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [
+    "MedicalWeb",
+    "MedApplication",
+    "medbook"
+  ],
+  "author": "Ammar Khizar Wajid Nashad Zain Kashif",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
